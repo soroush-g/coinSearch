@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="text"]{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  border-radius: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.width{
+  max-width: 600px;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.header{
+  background: #111;
+  color: #fff;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  .width{
+    position: relative;
+  }
+
+  h1{
+    text-align: center;
+    color: #fff;
+    text-decoration: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  a{
+    color: #fff;
+  }
+
+  svg{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: 12px;
+  }
+}
+
+.home-search {
+  padding: 40px 0;
+  text-align: center;
+
+  h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  input{
+    border: 1px solid #ddd;
+    padding: 0 24px;
+    border-radius: 10px;
+    line-height: 54px;
+  }
+}
+
+.home-cryptos{
+  padding-bottom: 60px;
+    h2{
+      font-size: 26px;
+      margin-bottom: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+}
+
+.home-crypto {
+  a{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  span {
+    display: block;
+  }
+}
+
+.home-cryptos-list {
+  border-top: 2px solid rgb(173, 173, 173);
+}
+
+.home-crypto-image {
+  width: 50px;
+}
+
+.home-crypto-name {
+  flex: 1;
+  font-size: 20px;
+  color: rgb(55, 55, 55);
+  font-weight: 600;
+}
+
+.home-crypto-btc{
+  color: rgb(55, 55, 55);
+  font-size: 20px;
+
+  img{
+    width: 15px;
+    display: inline-block;
+    margin: -2px 5px 0 0;
+    vertical-align: middle;
+  }
+}
+
+.home-crypto-usd{
+  color: rgb(7, 7, 7);
+  font-size: 12px;
+}
